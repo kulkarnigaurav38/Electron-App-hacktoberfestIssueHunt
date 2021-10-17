@@ -1,0 +1,18 @@
+{
+  "name": "electronappforhacktoberfestissuehunt",
+  "version": "1.0.0",
+  "description": "This app lists all the open issues with labels like \"hacktoberfest\", \"help-wanted\" etc. and in any language which the user is comfortable with.",
+  "main": "index.js",
+  "scripts": {
+    "start": "browserify ./src/views/scripts/functions.js > ./src/dist/bundle.js && electron src/index.js"
+  },
+  "author": "kulkarnigaurav38",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^15.1.2"
+  },
+  "dependencies": {
+    "electron-reload": "^2.0.0-alpha.1",
+    "hacktoberfest-issue-hunt": "^2.0.3"
+  }
+}

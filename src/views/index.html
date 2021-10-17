@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' 'unsafe-inline'"
+    />
+    <link rel="stylesheet" href="../public/main.css" type="text/css" />
+    <title>Hacktoberfest-Issue-Hunt</title>
+  </head>
+  <body>
+    <!-- <form action="" class="form"></form>
+    <label for="label" style="display: inline">Enter Label:</label>
+    <input
+      type="text"
+      placeholder="Enter Label"
+      name="label"
+      id="inputLabel"
+      style="width: 100px !important; margin: 5px"
+    />
+    <br />
+    <label for="language" style="display: inline">Enter Language:</label>
+    <input
+      type="text"
+      placeholder="Enter Language"
+      name="language"
+      id="inputLanguage"
+      style="width: 100px !important; margin: 5px"
+    />
+    <br />
+    <input type="submit" value="Submit" id="submit" /> -->
+
+    <table>
+      <thead>
+        <tr>
+          <th>Serial No.</th>
+          <th>Repository Name</th>
+          <th>Issue Title</th>
+          <th>Labels</th>
+          <th>Issue raised on</th>
+          <th>State</th>
+          <th>Comments</th>
+        </tr>
+      </thead>
+
+      <tbody></tbody>
+    </table>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../dist/bundle.js"></script>
+  </body>
+</html>

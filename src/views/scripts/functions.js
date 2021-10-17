@@ -1,5 +1,5 @@
 const hacktoberfest = require("hacktoberfest-issue-hunt");
-hacktoberfest({ token: "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" })
+hacktoberfest({ token: "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" })
   .then((issues) => {
     console.log(issues);
 
